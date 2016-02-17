@@ -809,7 +809,7 @@ and the following typing rule:
       - Preservation
         becomes false
         [(\x:Bool. \y:Bool. x) ttrue] : Bool
-        [(\y:Bool. x) ttrue] : Bool -> Bool
+        [(\y:Bool. ttrue)] : Bool -> Bool
         
 *)
 
